@@ -89,13 +89,29 @@ hr{
   background-color: #FDFAF6;
   text-align: left;
   font-size: larger;
-  margin-left: 170px;
+  margin-left: 280px;
+  margin-top: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.experience-one{
+  background-color: #FCECDD;
+  text-align: left;
+  font-size: larger;
+  margin-left: 450px;
   margin-top: 50px;
   position: relative;
   top: 50px;
 }
 
 .about-me h2{
+  bottom: -40px;
+  position: relative;
+}
+
+
+.Employment h2{
   bottom: -40px;
   position: relative;
 }
@@ -121,10 +137,28 @@ hr{
     top: -170px
 }
 
-.skills-class{
-  text-align: left;
+.ansys-img{
+  right: 1400px;
+  width: 280px;
+  height: auto;
+  margin-left: 1400px;
+  border: 5px solid #FEA82F;
+  margin-right: 40px;
+  margin-bottom: -120px;
+  position: relative;
+  top: -170px
 }
-
+.bottom-container{
+  background-color: #FDFAF6;
+}
+.skills-class h2{
+  margin-bottom: -40x;
+  text-align: center;
+  background-color: #FDFAF6;
+}
+.skills-class{
+  background-color: #FDFAF6;
+}
 h1 {
     font-size: 4.5rem;
     text-align: center;
@@ -232,11 +266,11 @@ progress {
     background-color: black;
     border: 0;
     height: 2.5em;
-    width: 100%;
+    width: 100vw;
 }
 
 progress::-webkit-progress-bar {
-    background-color: #FDFAF6;
+    background-color: #FCECDD;
 }
 
 progress::-webkit-progress-value {
